@@ -5,7 +5,7 @@ body{
 .descuento {
   background: #1cd1b0;
   font-family: 'Roboto', sans-serif;
-  width:cover;
+  width:100%;
   height: 35px;
   font-size: 20px;
   font-weight: bold;
@@ -58,24 +58,35 @@ margin-bottom: 3%;
 p{
   text-align: center;
 }
-bottom {
- display:inline-block;
- content: center;
- left: 455px;
- bottom: 50px;
- width: 200px;
- height: 60px;
- margin-top: 30px;
- margin-left: auto;
- margin-right: auto;
- font-size: 20px;
- line-height: 55px;
- font-weight: bold;
- text-align: center;
+.divBoton{
+  display: flex;
+  justify-content: center;
+}
+
+.boton {
+ width: 250px;
+ height: 50px;
  background: #1CD1B0;
- border: none;
+ font-size: 20px;
+ font-weight: bold;
  border-radius: 25px;
-content:center ;
+ text-align: center;
+ margin-top: 30px;
+ margin-left: 20px;
+ border: none;
+}
+
+.botonGris{
+  color: white;
+  background-color: grey;
+  width: 250px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 25px;
+  text-align: center;
+  margin-top: 30px;
+  border: none;
 }
 
 footer {
