@@ -48,7 +48,7 @@ h1 {
     background-color: #001D2D;
     color:white;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: normal;
     text-align: right;
     margin-top: 0px;
     padding-top: 10px;
@@ -194,5 +194,9 @@ footer {
   margin-top: -55px;
 }
 a:hover{
+  background-color:rgba(255, 255, 0, 0.815);
+ }
+
+ .add-container:hover{
   background-color:rgba(255, 255, 0, 0.815);
  }
