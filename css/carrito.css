@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+:root{
+  --main-color: #00669F;
+  --secondary-color: #1CD1B0;
+}
+
+body {
+  width: 100%; 
+  margin: 0px;
+}
+
+.descuento {
+  background: #1cd1b0;
+  font-family: 'Roboto', sans-serif;
+  width:cover;
+  height: 35px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  color: white; 
+  background-color: #00669f; 
+  font-weight: bold;
+  text-align: left; 
+  letter-spacing: 0px;
+  line-height: 35px;
+  margin: 0px;
+  padding-left: 20px;
+  padding-top: 15px; 
+  padding-bottom: 15px;
+  width: 100%;
+  height: 60px;
+}
+
+.im {
+  Width: 75px;
+  Height: 55px;
+  Top: 50px;
+  Left: 30px;
+ }
+ nav{
+  background-color: #001D2D;
+  height: 40px;
+  width: 100%;
+  text-align: right;
+  padding-top: 11px;
+  padding-right: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.navegacion a{
+  display: inline-block; 
+  margin-right: 10px;
+  color: white;  
+  font-family: Reboto, sans-serif;
+  font-size: 16px;
+  text-decoration:none;
+}
+.caja-heroe{
+  width: 954px;
+  height: 870px;
+  background: var(--main-color);
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 49px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: white;
+  font-family: Inter, sans-serif;
+  text-align: left;
+  padding: 18px 110px;
+  font-size: 20px;
+}
+
+.titulo{
+  text-align: center;
+  line-height: 40px;
+}
+
+.caja-columna{
+  display: inline-block;
+  width: 40%;
+}
+
+.izquierda{
+  margin-right: 5%;
+}
+
+.derecha{
+  margin-left: 5%;
+
+}
+
+.subtitulos{
+  display: block;
+  padding: 20px 0px;
+  width: 223px;
+}
+
+.formulario{
+  width: 343px;
+  height: 63px;
+  background: #FFFFFF;
+  border: 1.50px solid rgba(0, 0, 0, 0.1);
+  border-radius: 15.3407px;
+  font-size: 20px;
+}
+
+.descripcion-heroe{
+  height: 250px;
+  width: 343px;
+  margin-top: 20px;
+}
+.poderes{
+  margin-top: 40px;
+}
+
+.checkbox-radio{
+  font-family: Karla;
+  font-size: 16px;
+}
+.form-check-radio{
+  width: 20px; 
+  height: 18px;
+}
+hr{
+  margin-top: 32px;
+  margin-bottom: 20px;
+  width: 343px;
+}
+
+.entrar{ 
+  width: 100%;
+}
+.compartido{
+  width: 300px;
+}
+
+.reset{
+  background-color: #888888;
+  color: white;
+}
+
+.ir-registro{
+  margin-left: 16px;
+}
+
+.añadir{
+  background: var(--secondary-color);
+  display: block;
+  margin: auto;
+  width: 400px;
+  height: 80px;
+  font-family: Inter;
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 45px;
+  border-radius: 15px;
+  border: none;
+}
+
+footer {
+  background: #00669f;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 60px;
+  top: 600px;
+  margin-top: 0px;
+}
+
+.footer-text {
+  color:white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 2px;
+  padding-top: 15px;
+}
+/*pseudo-selectores*/
+input:focus {
+  color: rgb(9, 9, 65);
+  font-weight: bold;
+ }
+ a:hover{
+  background-color:rgba(255, 255, 0, 0.815);
+ }
+
+ input:hover{
+  background-color:rgba(255, 255, 0, 0.815);
+ }
+ textarea:hover{
+  background-color:rgba(255, 255, 0, 0.815);
+ }
