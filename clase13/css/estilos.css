@@ -153,34 +153,79 @@ input[type="submit"] {
 footer {
     background-color: var(--color-principal);
     display: flex;
-}
+ }
 
 footer>div {
     width: 50%;
-}
+ }
 
 footer h4 {
     color: #fff;
     margin-bottom: 20px;
-}
+ }
 
 footer ul {
     line-height: 2.5;
-}
+ }
 
 .news-letter {
     position: relative;
-}
+ }
 
 .news-letter>input[type="text"] {
     width: 100%;
-}
+ }
 
 .news-letter>input[type="submit"] {
     position: absolute;
     width: 100px;
     right: 0;
-}
+ }
 
 /*** Responsive */
-
+/*media queries para tablet*/
+@media screen and (max-width: 768px){ 
+.bg-header {
+    background-position: 60%; 
+ }
+.bg-header h1 {
+    font-size: 3.5rem;
+ }
+section {
+    padding: 2%;
+ }
+section>div,
+footer {
+    flex-direction: column;
+ }
+h2{
+    font-size: 2rem;
+    text-align: center;
+ }
+.card,
+.contacto,
+.formulario,
+footer>div {
+   width: 100%;
+   padding: 20px 0px;
+ }
+.contacto {
+    text-align: center;
+ }
+}
+/*media queries para smartphone*/
+@media screen and (max-width: 480px){
+.bg-header {
+    height: 100vh;
+ }
+.bg-header h1{
+    font-size: 2rem;
+ }
+h2 {
+margin-block-start: 0.83em;
+margin-block-end: 0.83em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+font-weight: bold;
+ }
+}
